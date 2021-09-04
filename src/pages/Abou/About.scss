@@ -1,0 +1,45 @@
+.about{
+    padding: 70px 35% 70px 0;
+    background-image: url('../../assets/imgs/porfolio-img-min.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top 0 right 0;
+    &::-webkit-scrollbar{
+        width: 5px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: #999
+        ;
+    }
+    &::-webkit-scrollbar-track{
+background-color: transparent;    }
+
+    &-hero{
+        &__title{
+            font-size: 55px;
+            line-height: 1.0625;
+            margin-bottom: 10px;
+        }   
+        &__text{
+            font-size: 21px;
+            margin-bottom: 14px;
+        }
+        &__future{
+            font-size: 24px;
+            margin-bottom: 14px;
+        }
+    }
+    &-list{
+        list-style: none;
+        &__item{
+            padding-left: 30px;
+            &:first-child,&:nth-child(5){
+                padding-left: 15px;
+            }
+            
+            margin-bottom: 5px;
+
+        }
+    }
+
+}

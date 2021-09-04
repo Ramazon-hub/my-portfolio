@@ -1,0 +1,61 @@
+@import '../../assets/color.scss';
+.works{
+    &-content{
+        padding: 15% 0;
+        
+    }
+}
+.skils{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    &__link{
+        display: block;
+        font-size: 36px;
+        font-weight: bold;
+        text-decoration: none;
+        color: $color-secondary;
+        text-align: center;
+        // background-color: #fff;
+        &:hover .skils__img{
+            visibility: visible;
+            opacity: 1;
+            transition: all 1s;
+        }
+        &:hover + .skils__text{
+            visibility: visible;
+            opacity: .7;
+        }
+    }
+    &__div{
+        position: relative;
+    }
+    &__img{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        top: -200px;
+        
+        &--js{
+          position: absolute;
+          left: 80px;
+        }
+        
+        &--css{
+            margin-left: 40px;
+        }
+    }
+    &__text{
+        margin-top: 10px;
+        opacity: 0;
+        width: 350px;
+        font-size: 16px;
+        line-height: 30px;
+        display: block;
+        visibility: hidden;
+    }
+}

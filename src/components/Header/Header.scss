@@ -1,0 +1,38 @@
+@import '../../assets/color.scss';
+.header{
+    display: block;
+    padding: 15px 0;
+    // background-color: red;
+    .header-nav{
+        // background-color: gold;
+    }
+
+
+}
+.nav-list{
+    // background-color: blueviolet;
+    display: flex;
+    list-style: none;
+    // padding: 20px 0;
+
+
+    &__item{
+        margin-bottom: 10px;
+        &:not(:last-child){
+            margin-right: 30px;
+        }
+        &:last-child{
+            margin-left: auto;
+        }
+    }
+    &__link{
+        text-decoration: none;
+        color:$color-secondary;
+        font-size: 20px;
+        font-weight: 700;
+        &-active{
+            color:$color-F0;
+        }
+    }
+    
+}
