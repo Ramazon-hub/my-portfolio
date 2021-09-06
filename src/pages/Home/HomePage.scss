@@ -5,9 +5,8 @@
     background-image: url('../../assets/imgs/porfolio-img-min.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top 0 right 0;
-    // background-attachment: center ;
-    // background-image: url('../../assets/imgs/twitter-logo.png');
+    background-position: top 130px right 0;
+    background-attachment: fixed;
 
    
     &-hero{
@@ -41,3 +40,90 @@
 
       
 }
+// @media only screen and (max-width:800px){
+
+//     .home{
+//     padding: 70px 35% 70px 0;
+//     &-hero{
+//         &__title{
+//             font-size: 50px;
+//             line-height: 1.0625;
+//         }
+
+//         &__text{
+//             font-size: 18px;
+//             margin-bottom: 14px;
+//         }
+//         &__me{
+//             margin-bottom: 20px;
+//             font-size: 24px;
+//         }
+//         &__job{
+//             margin-bottom: 25px;
+//         }
+        
+//     }
+
+      
+// }
+// }
+// @media only screen and (max-width:650px){
+//     .container{
+//         max-width: 450px;
+//     }
+//     .home{
+//     padding: 70px 40% 70px 0;
+//     background-size: 400px 500px;
+//     &-hero{
+//         &__title{
+//             font-size: 40px;
+//             line-height: 1.0625;
+//         }
+
+//         &__text{
+//             font-size: 18px;
+//             margin-bottom: 14px;
+//         }
+//         &__me{
+//             margin-bottom: 20px;
+//             font-size: 24px;
+//         }
+//         &__job{
+//             margin-bottom: 25px;
+//         }
+        
+//     }
+
+      
+// }
+// }
+// @media only screen and (max-width:450px){
+//     .container{
+//         max-width: 350px;
+//     }
+//     .home{
+//     padding: 70px 40% 70px 0;
+//     background-size: 400px 500px;
+//     &-hero{
+//         &__title{
+//             font-size: 40px;
+//             line-height: 1.0625;
+//         }
+
+//         &__text{
+//             font-size: 18px;
+//             margin-bottom: 14px;
+//         }
+//         &__me{
+//             margin-bottom: 20px;
+//             font-size: 24px;
+//         }
+//         &__job{
+//             margin-bottom: 25px;
+//         }
+        
+//     }
+
+      
+// }
+// }

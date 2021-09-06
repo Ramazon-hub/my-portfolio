@@ -1,7 +1,124 @@
+@import '../../assets/color.scss';
 .contact{
     background-image: url('../../assets/imgs/porfolio-img-min.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top 0 right 0;
-    height: 100vh;
+    background-position: top 130px right 45px;
+    background-attachment: fixed;
+    // height: 100vh;
+}
+.form{
+    width: 32%;
+    &__input{
+        width: 100%;
+        padding: 10px 5px;
+        display: block;
+        border: none;
+        outline: none;
+        border-radius:  15px 0 15px 0;
+        background-color: #191919;
+        border-bottom: 1px solid $color-secondary;
+        color: $color-secondary;
+        font-size: 20px;
+        &:not(:last-child){
+            margin-bottom: 10px;
+        }
+    }
+    &__note{
+        display: block;
+        margin-bottom: 5px;
+        &--name,&--email,&--message{
+            visibility: hidden;
+            transition: all 1s;
+        }
+        color:$color-F0;
+        font-size: 20px;
+        &--visible{
+            visibility: visible;
+        }
+    }
+    &__textarea{
+        font-family: Arial, sans-serif;
+    }
+    &__btn{
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        background-color: $color-F0;
+        color: $color-secondary;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+}
+.connection{
+    margin-top: 100px;
+    &__link{
+        text-decoration: none;
+        font-size: 18px;
+        color: $color-F0;
+        padding: 5px 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        background-color: #fff;
+        position: relative;
+        &:not(:last-child){
+            margin-right: 10px;
+        }
+        &--tg{
+            // background-color:rgb(47, 157, 247);
+            &::before{
+                content: '';
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                background-image: url('../../assets/imgs/telegram-brands.svg');
+                background-size: contain;
+                background-repeat: no-repeat;
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+        }
+        &--phone{
+            &::before{
+                content: '';
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                background-image: url('../../assets/imgs/phone-alt-solid.svg');
+                background-size: contain;
+                background-repeat: no-repeat;
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+        }
+        &--insta{
+            &::before{
+                content: '';
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                background-image: url('../../assets/imgs/instagram-brands.svg');
+                background-size: contain;
+                background-repeat: no-repeat;
+                vertical-align: top;
+                margin-right: 5px;
+            }
+        }
+        &--git{
+             &::before{
+                content: '';
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                background-image: url('../../assets/imgs/github-brands.svg');
+                background-size: contain;
+                background-repeat: no-repeat;
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+        }
+    }
 }

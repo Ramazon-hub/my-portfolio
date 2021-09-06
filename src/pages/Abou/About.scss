@@ -3,7 +3,8 @@
     background-image: url('../../assets/imgs/porfolio-img-min.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top 0 right 0;
+    background-position: top 130px right 0px;
+    background-attachment: fixed;
     &::-webkit-scrollbar{
         width: 5px;
     }
