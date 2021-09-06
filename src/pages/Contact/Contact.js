@@ -17,7 +17,7 @@ function Contact(){
 return(
     <>
     <div className="contact container">
-        <form className="form" method="POST" action="mailto:ramazon2021pardayev@gmail.com" enctype="text/plain">
+        <form className="form" method="POST" >
             <span className="form__note form__note--name">Name :</span>
             <input 
                 type="text" 
