@@ -2,18 +2,19 @@
 .header{
     display: block;
     padding: 15px 0;
-    // background-color: red;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  background-color: #070707;
+
     .header-nav{
-        // background-color: gold;
     }
 
 
 }
 .nav-list{
-    // background-color: blueviolet;
     display: flex;
     list-style: none;
-    // padding: 20px 0;
 
 
     &__item{
@@ -35,4 +36,35 @@
         }
     }
     
+}
+.menu{
+    display: none;
+    &__line{
+        width: 35px;
+        height: 4px;
+        background-color: #fff;
+        &:not(:last-child){
+            margin-bottom: 5px;
+        }
+    }
+}
+@media only screen and (max-width:400px){
+    .header{
+        position: relative;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .nav-list{
+        flex-direction: column;
+        background: transparent;
+        &__item{
+            &:last-child{
+                margin-left: 0;
+            }
+        }
+    }
 }
