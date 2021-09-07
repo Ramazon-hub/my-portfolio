@@ -4,6 +4,7 @@
 
     padding: 100px 35% 70px 0;
     background-image: url('../../assets/imgs/porfolio-img.png');
+    // background:url('../../assets/imgs/porfolio-img.png'),linear-gradient(to bottom,rgba(255,255,255,.4));
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top 130px right 0;
@@ -59,9 +60,10 @@
         max-width: 300px;
     }
     .home{
-        padding-top: 170px;
-    background-position: top 130px right -145px;
-
+        padding-top: 150px;
+    background-position: top 130px right -110px;
+        // background-image:none;
+        // padding-right: 0;
         &-hero{
             &__title{
                 font-size: 24px;
