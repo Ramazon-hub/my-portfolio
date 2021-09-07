@@ -5,7 +5,6 @@ import js from '../../assets/imgs/js-square-brands.svg'
 import react from '../../assets/imgs/react-brands.svg'
 import css from '../../assets/imgs/css3-alt-brands.svg'
 import { Link } from 'react-router-dom';
-
 function Work(){
     return(
     <>
@@ -39,7 +38,7 @@ function Work(){
                         </div>                
                 </div>
             </div>
-            
+           
         </div>
     </>
     )
