@@ -1,9 +1,9 @@
 import './Work.scss';
 
-import html from '../../imgs/html5-brands.svg'
-import js from '../../imgs/js-square-brands.svg'
-import react from '../../imgs/react-brands.svg'
-import css from '../../imgs/css3-alt-brands.svg'
+import html from '../../assets/imgs/html5-brands.svg'
+import js from '../../assets/imgs/js-square-brands.svg'
+import react from '../../assets/imgs/react-brands.svg'
+import css from '../../assets/imgs/css3-alt-brands.svg'
 import { Link } from 'react-router-dom';
 
 function Work(){
