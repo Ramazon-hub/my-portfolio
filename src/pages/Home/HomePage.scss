@@ -3,11 +3,10 @@
 .home{
 
     padding: 100px 35% 70px 0;
-    background-image: url('../../assets/imgs/porfolio-img.png');
-    // background:url('../../assets/imgs/porfolio-img.png'),linear-gradient(to bottom,rgba(255,255,255,.4));
-    background-size: contain;
+    background-image: url('../../assets/imgs/portfolio97.png');
+    background-size: 700px 700px  ;
     background-repeat: no-repeat;
-    background-position: top 130px right 0;
+    background-position: top 0 right 0;
     background-attachment: fixed;
    
    
@@ -60,10 +59,10 @@
         max-width: 300px;
     }
     .home{
-        padding-top: 150px;
-    background-position: top 130px right -110px;
-        // background-image:none;
-        // padding-right: 0;
+        padding-top: 100px;
+        background-image: url('../../assets/imgs/portfolio97+.png');
+        background-position: top 100px right -150px;
+        background-size: 400px 400px;
         &-hero{
             &__title{
                 font-size: 24px;
