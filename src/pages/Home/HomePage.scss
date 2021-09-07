@@ -36,6 +36,7 @@
     &-list{
         list-style: none;
         padding-left: 20px;
+        margin-bottom: 20px;
         &__item{
             &:not(:last-child){
                 margin-bottom: 10px;
@@ -61,11 +62,12 @@
     .home{
         padding-top: 100px;
         background-image: url('../../assets/imgs/portfolio97+.png');
-        background-position: top 100px right -150px;
+        background-position: top 160px right -103px;
         background-size: 400px 400px;
+        padding-right: 20%;
         &-hero{
             &__title{
-                font-size: 24px;
+                font-size: 30px;
             }
             &__text{
                 font-size: 20px;
@@ -76,6 +78,9 @@
             &__job{
                 margin-bottom: 10px;
             }
+        }
+        &-list{
+            
         }
     }
 }
