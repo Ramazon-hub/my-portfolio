@@ -1,4 +1,5 @@
 import './Html&cssProjects.scss'
+
 import { Link } from 'react-router-dom'
 import easybank1 from '../../assets/imgs/easybank1.png'
 import easybank2 from '../../assets/imgs/easybank2.png'

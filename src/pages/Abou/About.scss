@@ -1,11 +1,12 @@
+
 .about{
     padding-top: 100px;
     padding-right: 35%;
-    background-image: url('../../assets/imgs/portfolio97.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top 0 right 0px;
-    background-attachment: fixed;
+    // background-image: url('../../assets/imgs/portfolio97.png');
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    // background-position: top 0 right 0px;
+    // background-attachment: fixed;
     &::-webkit-scrollbar{
         width: 5px;
     }
@@ -17,24 +18,47 @@
 background-color: transparent;    }
 
     &-hero{
-        &__title{
-            font-size: 55px;
-            line-height: 1.0625;
-            margin-bottom: 10px;
-        }   
         &__text{
-            font-size: 21px;
+            font-size: 26px;
+            // line-height: 30px;
             margin-bottom: 14px;
         }
         &__future{
-            font-size: 24px;
+            font-size: 28px;
             margin-bottom: 14px;
+            font-weight: bold;
         }
     }
     &-list{
         list-style: none;
         &__item{
+            font-size: 24px;
             padding-left: 30px;
+            &::before{
+                content: '';
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                background-image: url('../../assets/imgs/arrow.svg');
+                background-repeat: no-repeat;
+                margin-left: -30px;
+                vertical-align: top ;
+                margin-right: 5px;
+            }
+            &:nth-child(1),&:nth-child(5){
+                &::before{
+                    content: '';
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    background-image: url('../../assets/imgs/clock.svg');
+                    background-repeat: no-repeat;
+                    margin-left: -30px;
+                vertical-align: top ;
+                margin-right: 10px;
+
+                }
+            }
             &:first-child,&:nth-child(5){
                 padding-left: 15px;
             }
@@ -44,4 +68,19 @@ background-color: transparent;    }
         }
     }
 
+}
+@media only screen and (max-width:400px){
+    .about{
+        padding-right: 0;
+        padding-top: 60px;
+        &-hero{
+            &__title{
+                font-size: 36px;
+            }
+            &__text{
+                text-align: center;
+            }
+            
+        }
+    }
 }

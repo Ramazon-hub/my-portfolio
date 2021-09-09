@@ -6,7 +6,7 @@ function About(){
         <div className="about container">
             <div className="about-hero">
             {/* <h1 className="about-hero__title">Hech kim bizga yordam berish majburiyatini olmagan.</h1> */}
-            <h1 className="about-hero__title">Mening ism,familyam Ramazon Pardayev.</h1>
+            {/* <h1 className="about-hero__title">Mening ism,familyam Ramazon Pardayev.</h1> */}
             <p className="about-hero__text">Hayotda o'z ishimga masuliyatli,boshlagan ishimni nihoyasiga yetkazuvchi insonman.Do'stlarim, yaqinlarim bilan birga vaqt o'tkazishni yaxshi ko'raman.</p>
             <p className="about-hero__future">Mening  maqsadlarim.</p>
             <ul className="about-list">

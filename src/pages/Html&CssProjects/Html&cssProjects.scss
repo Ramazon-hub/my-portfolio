@@ -9,9 +9,6 @@
             display: flex;
             align-items: center;
             justify-content: space-around;
-            // &:nth-child(2n){
-            //     flex-direction: row-reverse;
-            // }
         }
         &__link{
             text-decoration: none;
@@ -27,9 +24,6 @@
     &__img{
         border-radius:20px;
     }
-    // .easybank--1, .pixer--1, .audiophile--1, .namangan--1, .productly--1, .trafalgar--1, .afrianska--1, .vetclinc--1, .myteam--1{
-    //        position: relative;
-    //    }
        .easybank--2, .pixer--2, .audiophile--2, .namangan--2, .productly--2, .trafalgar--2, .afrianska--2, .vetclinc--2, .myteam--2{
            position: absolute;
            top: 50px;
@@ -46,4 +40,49 @@
     font-weight: bold;
     border: 2px solid $color-F0;
 
+}
+@media only screen and (max-width:400px){
+    .projects{
+        padding-top: 70px;
+        &-list{
+            list-style: none;
+            padding-top: 50px;
+            padding-left: -50px;
+            &__item{
+                margin-bottom: 100px;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                margin-left: 0;
+                padding-left: 0;
+            }
+            &__link{
+                text-decoration: none;
+                color:$color-secondary;
+                font-size: 36px;
+                margin-left: 0;
+            }
+        }
+        &__img{
+            border-radius:20px;
+            width: 180px;
+            height: 120px;
+        }
+           .easybank--2, .pixer--2, .audiophile--2, .namangan--2, .productly--2, .trafalgar--2, .afrianska--2, .vetclinc--2, .myteam--2{
+               position: absolute;
+               top: 20px;
+               left: 70px;
+           }
+       
+    }
+    .back{
+        padding: 8px 15px;
+        background-color:transparent;
+        text-decoration: none;
+        color:$color-secondary;
+        border-radius: 20px 0 20px 0;
+        font-weight: bold;
+        border: 2px solid $color-F0;
+    
+    }
 }

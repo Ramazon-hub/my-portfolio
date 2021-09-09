@@ -11,7 +11,7 @@ const HomePage = () => {
                     
                     
                     </h1>
-                    <p className="home-hero__text">Mening biladigan texnologiyalarim</p>
+                    <p className="home-hero__text">Mening biladigan texnologiyalarim : </p>
                     <ul className="home-list">
                         <li className="home-list__item">Html5</li>
                         <li className="home-list__item">Css (SCSS)</li>
@@ -20,7 +20,7 @@ const HomePage = () => {
                         <li className="home-list__item">MaterialUI</li>
                         <li className="home-list__item">GitHub ( jamoaviy ishlash )</li>
                     </ul>
-                    <p className="home-hero__text home-hero__work ">Bu yerda mening qilgan loyihalarim : <Link to="/work" className="home-hero__link">My projects</Link></p>
+                    <p className="home-hero__text home-hero__work ">Mening qilgan loyihalarim : <Link to="/work" className="home-hero__link">My projects</Link></p>
                     <p className="home-hero__text home-hero__life ">Haqiqiy hayotda yaxshi suhbatdosh,qiziquvchan, o'z ishini yaxshi ko'ruvchi insonman.Bu yerda men haqimda ko'proq : <Link to="/about" className="home-hero__link">About me</Link> ✌️</p>
                  </div>
             </div>
