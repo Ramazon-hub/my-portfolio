@@ -14,7 +14,7 @@ import ReactProjects from "./pages/ReactProjects/ReactProjects";
 function App() {
   return (
    <div className="app-wrapper">
-     {/* <Header/> */}
+     <Header/>
      <Switch>
        <Route path="/" component={HomePage} exact/>
        <Route path="/about" component={About} />
